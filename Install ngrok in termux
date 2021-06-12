@@ -1,0 +1,19 @@
+pkg update && pkg upgrade -y
+
+pkg install zip wget -y
+
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+
+
+unzip ngrok-stable-linux-arm.zip
+
+
+chmod +x ngrok
+
+Open ngrok.com
+Sign-up
+
+./ngrok authtoken YOUR_AUTH_TOKEN_HERE
+
+./ngrok help
+
